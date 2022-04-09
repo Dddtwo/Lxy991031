@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>webAndJdbc</title>
   </head>
   <body>
-  $END$
+  <form action="/oneServlet" method="get">
+    查询ID<input type="text" name="id"><br/>
+    <input type="submit" value="提交">
+  </form>
   </body>
 </html>
